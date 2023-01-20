@@ -3,10 +3,10 @@ import sunglass from '../images/sunglassoverlay.png'
 import eyeglass from '../images/eyeglassoverlay.png'
 const Tagline = () => {
     return (
-        <div class="container text-center">
-        <div class="row tagline justify-content-md-center">
-          <div class="col-8 col-lg-6">
-          <div class="taglinediv">
+        <div className="container text-center">
+        <div className="row tagline justify-content-md-center">
+          <div className="col-8 col-lg-6">
+          <div className="taglinediv">
             <img src={sunglass} alt="" />
             <div className='imgoverlaytext'>
                 <h2>EYEGLASSES</h2>
@@ -15,8 +15,8 @@ const Tagline = () => {
             </div>
           </div>
           </div>
-          <div class="col-8 col-lg-6">
-          <div class="taglinediv">
+          <div className="col-8 col-lg-6">
+          <div className="taglinediv">
             <img src={eyeglass} alt="" />
             <div className='imgoverlaytext'>
                 <h2>SUNGLASSES</h2>

@@ -1,7 +1,12 @@
 import "./App.css";
 import Banner from "./component/Banner";
+import Blog from "./component/Blog";
 import Collection from "./component/collection";
+import Girlbanner from "./component/Girlbanner";
+import Glassproduct from "./component/Glassproduct";
+import Logosection from "./component/Logosection";
 import Navbar from "./component/Navbar";
+import Product from "./component/Product";
 import Tagline from "./component/Tagline";
 
 function App() {
@@ -11,7 +16,12 @@ function App() {
       <Banner></Banner>
       <Tagline></Tagline>
       <Collection></Collection>
-      <h2> Hello It is mahlil </h2>
+      <Product></Product>
+      <Logosection></Logosection>
+      <Glassproduct></Glassproduct>
+      <Girlbanner></Girlbanner>
+      <Blog></Blog>
+     
     </div>
   );
 }

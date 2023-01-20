@@ -57,6 +57,15 @@
 .ladyimage  {
 width: 100%;
 }
+
+.girl{
+  position: relative;
+}
+.girllogo{
+  position:absolute;
+  top: 40px;
+  left: 650px;
+}
 .banner input{
   background-color:inherit;
   color: white;
@@ -66,10 +75,27 @@ width: 100%;
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .imgoverlaytext {
    top: 80px;
 
    left: 70px;
+  }
+  .girllogo{
+    position:absolute;
+    top: 40px;
+    left: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imgoverlaytext {
+   top: 80px;
+
+   left: 70px;
+  }
+  .girllogo{
+    position:absolute;
+    top: 40px;
+    left: 250px;
   }
 }
