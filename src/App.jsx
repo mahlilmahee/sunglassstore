@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./App.css";
+import Banner from "./component/Banner";
+import Navbar from "./component/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-     <h2> Hello It is mahlil </h2>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <h2> Hello It is mahlil </h2>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
