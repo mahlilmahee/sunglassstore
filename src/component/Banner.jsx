@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner">
       <div class="container text-center">
         <div class="row">
-          <div class=" col-12 col-md-12 col-lg-6">
+          <div class=" col-12  col-lg-6">
             <div>
               <h1 className="glasstext">TAKE YOUR BEST GLASSES</h1>
               <p className="bannertext">
@@ -20,7 +20,7 @@ const Banner = () => {
 
             </div>
           </div>
-          <div class="col-12 col-md-12 col-lg-6 divtwo">
+          <div class="col-12  col-lg-6 divtwo">
             <img src={pic} alt="" />
           </div>
         </div>
