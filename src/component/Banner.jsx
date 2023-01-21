@@ -2,7 +2,7 @@ import React from "react";
 import pic from "../images/sunglassOne.png";
 const Banner = () => {
   return (
-    <div className="banner" style={{marginTop:'100px', marginBottom:'100px'}}>
+    <div className="banner" style={{marginTop:'10px', marginBottom:'100px'}}>
       <div className="container text-center">
         <div className="row">
           <div className=" col-12  col-lg-6">

@@ -6,7 +6,7 @@ import logo4 from '../images/logo4.png'
 import logo5 from '../images/logo5.png'
 const Logosection = () => {
     return (
-        <div style={{marginTop:'100px'}} class="container text-center">
+        <div style={{marginTop:'100px', marginBottom:'20px'}} class="container text-center">
         <div class="row gx-2">
           <div class="col-6 col-md-4 col-lg-2">
             <img src={logo1} alt="" />

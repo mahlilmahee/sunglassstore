@@ -3,7 +3,7 @@ import sunglass from '../images/sunglassoverlay.png'
 import eyeglass from '../images/eyeglassoverlay.png'
 const Tagline = () => {
     return (
-        <div className="container text-center">
+        <div className="container text-center" style={{marginBottom:'100px'}}>
         <div className="row tagline justify-content-md-center">
           <div className="col-8 col-lg-6">
           <div className="taglinediv">
